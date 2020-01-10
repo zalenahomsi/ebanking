@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ebanking" duration-ms="37764" started-at="2020-01-09T17:37:52 CST" finished-at="2020-01-09T17:38:30 CST">
+    <groups>
+    </groups>
+    <test name="functional test" duration-ms="37764" started-at="2020-01-09T17:37:52 CST" finished-at="2020-01-09T17:38:30 CST">
+      <class name="testcases.AddProductTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testcases.AddProductTest@74650e52]" name="setup" is-config="true" duration-ms="5434" started-at="2020-01-09T17:37:53 CST" finished-at="2020-01-09T17:37:58 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="productDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddProductTest@74650e52]" name="productDDT" duration-ms="8161" started-at="2020-01-09T17:37:59 CST" data-provider="product" finished-at="2020-01-09T17:38:08 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laptop]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1801]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[office]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDDT -->
+        <test-method status="PASS" signature="productDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddProductTest@74650e52]" name="productDDT" duration-ms="7578" started-at="2020-01-09T17:38:08 CST" data-provider="product" finished-at="2020-01-09T17:38:15 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tablet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1802]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[office]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDDT -->
+        <test-method status="PASS" signature="productDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddProductTest@74650e52]" name="productDDT" duration-ms="7064" started-at="2020-01-09T17:38:15 CST" data-provider="product" finished-at="2020-01-09T17:38:22 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[desktop]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1803]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[office]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDDT -->
+        <test-method status="PASS" signature="productDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddProductTest@74650e52]" name="productDDT" duration-ms="7374" started-at="2020-01-09T17:38:22 CST" data-provider="product" finished-at="2020-01-09T17:38:30 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[headphone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1804]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[office]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.AddProductTest@74650e52]" name="tearDown" is-config="true" duration-ms="595" started-at="2020-01-09T17:38:30 CST" finished-at="2020-01-09T17:38:30 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.AddProductTest -->
+    </test> <!-- functional test -->
+  </suite> <!-- ebanking -->
+</testng-results>

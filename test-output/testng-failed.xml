@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ebanking]">
+  <listeners>
+    <listener class-name="utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="functional test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testcases.AddProductTest">
+        <methods>
+          <include name="productDDT" invocation-numbers="0 1 2 3"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.AddProductTest -->
+    </classes>
+  </test> <!-- functional test(failed) -->
+</suite> <!-- Failed suite [ebanking] -->
